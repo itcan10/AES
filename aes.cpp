@@ -3,8 +3,6 @@
 // Output	 : 16 unsigned char (256 bit)
 // Mode		 : AES-128, AES-192, and AES-256
 // Support encipher and decipher
-// Lantang Satriatama
-// 15/378066/PA/16541
 #include <bits/stdc++.h>
 using namespace std;
 #define mul2(x) ( (x << 1) ^ (0x1b & -(x >> 7)) ) //mengalikan bilangan dengan 2 (shift left) kemudian di mod dengan binary(1011)
